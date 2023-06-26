@@ -10,7 +10,6 @@ body {
 	margin: 60px auto;
 	max-width: 1000px;
 	background: #f0f0e3;
-	text-align: center;
 }
 
 h1,
@@ -157,4 +156,7 @@ img {
 
 .linkedin {
 	color: var(--linkedin-color);
+}
+.hero {
+	text-align: center;
 }
