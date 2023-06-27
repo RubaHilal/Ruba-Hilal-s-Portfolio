@@ -81,9 +81,10 @@ p {
 }
 .contact{
 	color: var(--fifth-color);
+	padding: 30px;
+	margin: 30px;
 
 }
-
 .about-link {
 	color: var(--fifth-color);
 	border: 1px solid var(--third-color);
@@ -117,7 +118,7 @@ p {
 .email-link {
 	display: flex;
 	justify-content: center;
-	color: var(--linkedin-color);
+	color: var(--primary-color);
 	font-size: 28px;
 	text-decoration: none;
 }
@@ -143,6 +144,18 @@ img {
 	margin: 10px;
 	text-decoration: none;
 	text-transform: capitalize;
+	background: var(--primary-color);
+	box-shadow: var(--box-shadow);
+	color: var(--third-color);
+	font-family: "Montserrat", sans-serif;
+	line-height: 1.5;
+}
+.primary-links{
+	border-radius: 4px;
+	padding: 20px 80px;
+	margin: 10px;
+	text-decoration: none;
+	text-transform: capitalize;
 	background: var(--third-color);
 	box-shadow: var(--box-shadow);
 	color: var(--primary-color);
@@ -158,7 +171,7 @@ img {
 	text-transform: capitalize;
 	background: var(--secondary-color);
 	box-shadow: var(--box-shadow);
-	color: black;
+	color: var(--fourth-color);
 	font-family: "Montserrat", sans-serif;
 	line-height: 1.5;
 }
@@ -171,7 +184,7 @@ img {
 	text-transform: capitalize;
 	background: var(--linkedin-color);
 	box-shadow: var(--box-shadow);
-	color: black;
+	color: var(--sixth-color);
 	font-family: "Montserrat", sans-serif;
 }
 .navbar-color {
@@ -238,4 +251,43 @@ img {
 .weathers {
 	color: black;
 	background-color: var(--primary-color);
+}
+
+
+.email{
+color: var(--third-color);
+}
+
+.instagarm{
+	color: var(--fifth-color);
+}
+.twitter{
+	color: var(--linkedin-color);
+}
+.instagram-link {
+	display: flex;
+	justify-content: center;
+	color: black;
+	font-size: 28px;
+	text-decoration: none;
+	background: var(--fifth-color);
+	
+}
+
+.instagram-link:hover {
+	text-decoration: underline;
+}
+
+.twitter-link{ 
+		display: flex;
+	justify-content: center;
+	color:var(--linkedin-color);
+	font-size: 28px;
+	text-decoration: none;
+	background: var(--fourth-color);
+
+}
+
+.twitter-link:hover {
+	text-decoration: underline;
 }
