@@ -6,7 +6,7 @@
 	--linkedin-color: #a0b4b7;
 	--fourth-color: #dae5e7;
 	--fifth-color: #c4979e;
-	--sixth-color: #F0F1E4;
+	--sixth-color: #f0f1e4;
 }
 
 body {
@@ -79,11 +79,10 @@ p {
 	color: black;
 	font-family: "Montserrat", sans-serif;
 }
-.contact{
+.contact {
 	color: var(--fifth-color);
 	padding: 30px;
 	margin: 30px;
-
 }
 .about-link {
 	color: var(--fifth-color);
@@ -95,24 +94,21 @@ p {
 	color: var(--sixth-color);
 	text-align: center;
 	display: block;
-
 }
 
 .about-paragraphs {
 	display: block;
 	width: 100%;
-		background-position: center;
-		text-align:center ;
+	background-position: center;
+	text-align: center;
 }
 
 .about-paragraphs p {
-		display: block;
-	margin:20px;
+	display: block;
+	margin: 20px;
 	padding: 30px;
 	background-color: var(--fifth-color);
 	text-align: center;
-
-
 }
 
 .email-link {
@@ -134,8 +130,7 @@ img {
 	color: #a1902f;
 	background: #f0f0e3;
 }
-.olive-img{
-	
+.olive-img {
 }
 
 .primary-link {
@@ -150,7 +145,7 @@ img {
 	font-family: "Montserrat", sans-serif;
 	line-height: 1.5;
 }
-.primary-links{
+.primary-links {
 	border-radius: 4px;
 	padding: 20px 80px;
 	margin: 10px;
@@ -192,6 +187,7 @@ img {
 	box-shadow: var(--box-shadow);
 	font-family: "Roboto", sans-serif;
 }
+
 
 .linkedin {
 	color: var(--linkedin-color);
@@ -253,15 +249,14 @@ img {
 	background-color: var(--primary-color);
 }
 
-
-.email{
-color: var(--third-color);
+.email {
+	color: var(--third-color);
 }
 
-.instagarm{
+.instagarm {
 	color: var(--fifth-color);
 }
-.twitter{
+.twitter {
 	color: var(--linkedin-color);
 }
 .instagram-link {
@@ -271,23 +266,24 @@ color: var(--third-color);
 	font-size: 28px;
 	text-decoration: none;
 	background: var(--fifth-color);
-	
 }
 
 .instagram-link:hover {
 	text-decoration: underline;
 }
 
-.twitter-link{ 
-		display: flex;
+.twitter-link {
+	display: flex;
 	justify-content: center;
-	color:var(--linkedin-color);
+	color: var(--linkedin-color);
 	font-size: 28px;
 	text-decoration: none;
 	background: var(--fourth-color);
-
 }
 
 .twitter-link:hover {
 	text-decoration: underline;
+}
+nav li.active a{
+	color: var(--third-color);
 }
