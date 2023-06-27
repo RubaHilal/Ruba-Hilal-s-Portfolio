@@ -6,6 +6,7 @@
 	--linkedin-color: #a0b4b7;
 	--fourth-color: #dae5e7;
 	--fifth-color: #c4979e;
+	--sixth-color: #F0F1E4;
 }
 
 body {
@@ -86,19 +87,27 @@ p {
 }
 
 .homepage-link {
-	color: var(--primary-color);
+	color: var(--sixth-color);
 	text-align: center;
 	display: block;
+
 }
 
 .about-paragraphs {
-	display: flex;
-	margin: 30px 30px;
+	display: block;
 	width: 100%;
+		background-position: center;
+		text-align:center ;
 }
 
 .about-paragraphs p {
-	margin: 10px;
+		display: block;
+	margin:20px;
+	padding: 30px;
+	background-color: var(--fifth-color);
+	text-align: center;
+
+
 }
 
 .email-link {
