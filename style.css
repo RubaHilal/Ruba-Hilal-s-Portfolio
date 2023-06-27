@@ -79,6 +79,10 @@ p {
 	color: black;
 	font-family: "Montserrat", sans-serif;
 }
+.contact{
+	color: var(--fifth-color);
+
+}
 
 .about-link {
 	color: var(--fifth-color);
@@ -113,7 +117,7 @@ p {
 .email-link {
 	display: flex;
 	justify-content: center;
-	color: var(--primary-color);
+	color: var(--linkedin-color);
 	font-size: 28px;
 	text-decoration: none;
 }
@@ -127,17 +131,21 @@ img {
 
 .olive {
 	color: #a1902f;
+	background: #f0f0e3;
+}
+.olive-img{
+	
 }
 
 .primary-link {
 	border-radius: 4px;
-	padding: 20px 15px;
+	padding: 20px 80px;
 	margin: 10px;
 	text-decoration: none;
 	text-transform: capitalize;
-	background: var(--primary-color);
+	background: var(--third-color);
 	box-shadow: var(--box-shadow);
-	color: black;
+	color: var(--primary-color);
 	font-family: "Montserrat", sans-serif;
 	line-height: 1.5;
 }
@@ -225,4 +233,9 @@ img {
 .linkedIn-paragraph {
 	background-color: var(--fourth-color);
 	padding: 30px;
+}
+
+.weathers {
+	color: black;
+	background-color: var(--primary-color);
 }
