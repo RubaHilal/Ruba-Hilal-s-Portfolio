@@ -130,9 +130,6 @@ img {
 	color: #a1902f;
 	background: #f0f0e3;
 }
-.olive-img {
-}
-
 .primary-link {
 	border-radius: 4px;
 	padding: 20px 80px;
@@ -187,7 +184,6 @@ img {
 	box-shadow: var(--box-shadow);
 	font-family: "Roboto", sans-serif;
 }
-
 
 .linkedin {
 	color: var(--linkedin-color);
@@ -284,6 +280,6 @@ img {
 .twitter-link:hover {
 	text-decoration: underline;
 }
-nav li.active a{
+nav li.active a {
 	color: var(--third-color);
 }
