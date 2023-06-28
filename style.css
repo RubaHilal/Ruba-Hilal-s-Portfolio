@@ -46,13 +46,14 @@ h3 {
 	color: var(--linkedin-color);
 }
 
-h4 {
+h4, h5{
 	font-size: 24px;
 	opacity: 0.7;
 	margin: 40px;
 	color: var(--fifth-color);
 	font-family: var(--primary-font-family);
 }
+
 
 p {
 	background: var(--fifth-color);
