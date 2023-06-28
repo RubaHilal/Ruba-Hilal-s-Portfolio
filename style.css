@@ -112,7 +112,6 @@ p {
 	width: 97%;
 	background-position: center;
 	text-align: center;
-		display: block;
 	margin: 20px;
 	padding: 30px;
 
@@ -262,6 +261,59 @@ img {
 .twitter-link:hover {
 	text-decoration: underline;
 }
-nav li.active a {
-	color: var(--third-color);
+
+.instagram-link-footer{
+
+    color: var(--fifth-color);
+    font-size: 30px;
+    text-decoration: none;
+
 }
+.github{
+    color: var(--fourth-color);
+    font-size: 30px;
+    text-decoration: none;
+
+}
+.linkedIn-link-footer{
+    color: var(--linkedin-color);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav li.active a {
+    color: var(--third-color);
+}
+footer .social-links a:hover {
+    color: var(--third-color);  
+}
+.about-link-footer {
+color: var(--third-color);
+border: 1px solid var(--linkedin-color);
+font-family: var(--secondary-font-family);
+    margin: 5px;
+    border-radius:4px;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color:  #14161e;
+    font-size: small;
+    font-weight:normal;
+	display: inline-block;
+}
+.footer-contact {
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+.footer-contact-paragraph {
+    
+padding: 10px;
+font-size: large;
+font-weight: bolder;
+text-align: center;
+}
+
+
